@@ -1,9 +1,18 @@
 package com.scorpio;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
-public interface Category<CategoryT extends Category<CategoryT, MeasureT>, MeasureT extends Measure> {
-    List<CategoryT> getCategories();
-    List<MeasureT> getMeasures();
-    String getName();
+@Getter
+@Setter
+public class Category {
+    private long id;
+
+    private String name;
+
+    private List<Category> categories;
+
+    private List<Measure> measures;
 }
