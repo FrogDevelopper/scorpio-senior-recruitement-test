@@ -1,9 +1,13 @@
-package com.scorpio;
+package com.scorpio.model;
 
-import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Getter;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
+import io.micronaut.serde.annotation.Serdeable;
+
 @Getter
+@Serdeable.Deserializable
 public enum DataType {
 
     SHORT("Short", Short.class),
@@ -29,4 +33,5 @@ public enum DataType {
         this.value = value;
         this.clazz = clazz;
     }
+
 }
