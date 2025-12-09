@@ -10,4 +10,14 @@ class PlcTest {
     void loadPlcTree() {
         // TODO
     }
+
+    @Test
+    void searchByName() {
+        // TODO
+    }
+
+    @Test
+    void searchByDataType() {
+        // TODO
+    }
 }
