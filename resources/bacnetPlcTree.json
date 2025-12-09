@@ -5,7 +5,7 @@
   "categories": [
     {
       "id": 6018584834736128,
-      "name": "Robot-1",
+      "name": "PAC-1",
       "measures": [],
       "categories": [
         {
@@ -14,7 +14,7 @@
           "measures": [
             {
               "id": 6287015995768832,
-              "name": "Temperature",
+              "name": "Heating setpoint 1",
               "dataType": "Float"
             }
           ],
@@ -26,7 +26,7 @@
           "measures": [
             {
               "id": 5256415037882368,
-              "name": "Operating-status",
+              "name": "Pump rotation",
               "dataType": "Boolean"
             }
           ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 5508080122986496,
-      "name": "Robot-2",
+      "name": "PAC-2",
       "measures": [],
       "categories": [
         {
@@ -45,12 +45,12 @@
           "measures": [
             {
               "id": 6070606753693696,
-              "name": "Pression",
+              "name": "Heating setpoint 1",
               "dataType": "Float"
             },
             {
               "id": 5833506775105536,
-              "name": "Temperature",
+              "name": "Heating setpoint 2",
               "dataType": "Double"
             }
           ],
@@ -61,7 +61,7 @@
               "measures": [
                 {
                   "id": 4991488301727744,
-                  "name": "Piece-counter",
+                  "name": "Start-up delay",
                   "dataType": "Integer"
                 }
               ],
@@ -79,7 +79,7 @@
               "measures": [
                 {
                   "id": 5383500637143040,
-                  "name": "default-status",
+                  "name": "Pump rotation",
                   "dataType": "Boolean"
                 }
               ],
@@ -94,7 +94,7 @@
           "measures": [
             {
               "id": 6627611130200064,
-              "name": "Temperature consign",
+              "name": "Cooling setpoint 1",
               "dataType": "Float"
             }
           ],
