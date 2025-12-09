@@ -1,12 +1,23 @@
+# How to
 
-## install dependencies
-`mvn install`
+## compile
+```shell
+./gradlew classes
+```
 
 ## Build the application
-`mvn package`
+```shell
+./gradlew package
+```
 
 ## Run the application
-- the main function is in the Plc class. Run the main function with your favourite IDE.
+- the main function is in the `PlcApplication` class. Run the main function with your favourite IDE.
+- or run
+    ```shell
+    ./gradlew run
+    ```
 
 ## Run the tests
-`mvn test`
+```shell
+./gradlew test
+```

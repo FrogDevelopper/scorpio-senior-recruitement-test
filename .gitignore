@@ -1,34 +1,16 @@
-HELP.md
-java-recruitment-test/target/
-
-.angular/
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+### Gradle template
+.gradle
+**/build/
+!src/**/build/
 
-### dépendance ###
-/typescript-recruitment-test/node_modules
-/typescript-recruitment-test/dist
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
 
-###
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties

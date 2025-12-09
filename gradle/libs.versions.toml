@@ -1,0 +1,4 @@
+[versions]
+micronaut="4.10.3"
+
+[libraries]
